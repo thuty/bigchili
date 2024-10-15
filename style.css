@@ -24,7 +24,7 @@
     padding: 3rem; 
     gap: 3rem ;  
     justify-content: space-between;
-    
+
    }
 
 
@@ -59,3 +59,12 @@
     padding: 2rem;
    }
     
+   .pergunta-cartao{
+    color: var(--branco);
+    font-weight: 500;
+   }
+
+   .resposta-cartao{
+    color: var(--destaque);
+    font-weight: 700;
+   }
