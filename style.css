@@ -39,6 +39,10 @@
     background-color: var(--cartao-frente);
     text-align: center;
     height: 100%;
+    color: var(--branco);
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out
+    ;
    }
 
    .conteudo-cartao h3{
@@ -67,4 +71,8 @@
    .resposta-cartao{
     color: var(--destaque);
     font-weight: 700;
+   }
+
+   .cartao:hover .conteudo-cartao{
+    transform: rotateY(180deg)
    }
