@@ -24,5 +24,12 @@
 
 
  footer{
-    position
+    position:fixed;
+    bottom: 0;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
  }
+
+ 
