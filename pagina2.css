@@ -1,0 +1,28 @@
+:root{
+   --fundo:#E6E6FA;
+   --cartao-frente:#e6e6fa;
+   --cartao-verso:#bb96f7;
+   --destaque:#6e00c9;
+   --preto:#000000;
+   --branco:#ffffff;
+
+}
+ body{
+    background-color: #E6E6FA;
+ }   
+
+ header{
+    color:#000000;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ header a {
+    color: #e6e6fa;
+ }
+
+
+ footer{
+    position
+ }
