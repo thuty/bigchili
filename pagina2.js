@@ -1,4 +1,4 @@
-function criacartao (categoria, pergunta, resposta)
+function criacartao (categoria, pergunta, resposta){
     let container = document.getElementById('container');
     let cartao = document.createElement('article')
     cartao.className = 'cartao';
@@ -13,5 +13,11 @@ function criacartao (categoria, pergunta, resposta)
     </div>
 </div>
 `
-
 container.appendChild(cartao);
+}
+function mostraResposta(card){
+    const resposta=card.querySelector('.resposta-cartao')
+    if(resposta.style.display ==='nome'){
+        resposta.style.display = 'block'
+    }
+}
